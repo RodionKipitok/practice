@@ -1,0 +1,56 @@
+.img-card{
+	font-family: 'Noto Sans', serif;
+	letter-spacing: 1px;
+	width:754px;
+	height: 551px;
+   border: 1px solid black;
+	background:  floralwhite;
+
+}
+
+
+.img-card__picture{
+   max-width: 100%;
+	display: block;
+	margin: auto;
+	transition: transform 0.25s;
+   border: 2px solid #ccc;
+	border-radius: 4px;
+	padding: 3px;
+
+
+}
+
+.img-card__picture--wrap{
+	margin: 37px auto;
+	width: 400px;
+	height: 260px;
+	
+}
+ .img-card__picture--wrap:hover .img-card__picture {
+
+	transform:  scale(1.1);
+ }
+
+.img-card__text-name{
+ margin-left: 18px; 
+ border: 1px solid black;
+
+
+}
+
+
+.img-card__description{
+	margin-left: 18px;
+	border: 1px solid black;
+
+
+}
+
+
+.img-card__description-breed{
+	margin-left: 18px;
+	border: 1px solid black;
+
+
+}
